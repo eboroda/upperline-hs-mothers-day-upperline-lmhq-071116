@@ -1,6 +1,10 @@
-## Define your method, mothers_day, below. Go through the README and update your method as needed!
 
+def mothers_day(member="Mom")
+  puts "Happy Mother's Day, #{member}!"
+end
+mothers_day("Beyonce")
 
-
-## Call your method below - use puts to see it in the terminal!
-
+def holiday_greeting(holiday="Mother's Day",member="Mom",from="your favorite child")
+  puts "Happy #{holiday}, #{member}! From #{from}!"
+end
+holiday_greeting("Halloween", "Beyonce", "Jay-Z")
